@@ -1,12 +1,14 @@
-import Footer from "./Component/Footer/Footer";
-import Hero from "./Component/HeroSection/Hero";
+// import Mint from "./Pages/Mint";
+
+import Stacking from "./Pages/Stacking";
+
 
 
 function App() {
   return (
     <div>
-      <Hero></Hero>
-      <Footer></Footer>
+{/* <Mint></Mint> */}
+<Stacking></Stacking>
     </div>
   );
 }

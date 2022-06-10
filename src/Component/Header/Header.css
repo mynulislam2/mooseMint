@@ -71,6 +71,11 @@ p {
 
 }
 
+.bg-color {
+    background-color: #ffffff12;
+
+}
+
 .footer-bg {
     background-color: transparent;
     background-image: url("https://moosesocietynft.io/wp-content/uploads/2022/03/noise-footer.png"), linear-gradient(90deg, rgb(78, 16, 255)0%, rgb(171, 23, 223) 100%);
