@@ -21,7 +21,7 @@ const Footer = () => {
                     <Slide bottom>                <div>
                         <span><img width={200} src="https://moosesocietynft.io/wp-content/uploads/2022/03/MOOSE-SOCIETY-LOGO-1-1536x216.png" alt="" /></span>
                         <p className=' w-72 text-white text-lg'>Thank you for checking out our site! We would love for you to become part of our herd!</p>
-                        <div className='flex'>
+                        <div className='flex gap-x-3'>
                             <a className='text-2xl'><FaTwitter /></a>
                             <a className='text-2xl'><FaInstagram /></a>
                             <a className='text-2xl'><FaDiscord /></a>
