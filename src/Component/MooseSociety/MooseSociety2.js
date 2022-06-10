@@ -19,7 +19,6 @@ const MooseSociety2 = () => {
                         </div>
                         <div className=" mt-2 flex justify-center">
                             <a className="uppercase dashboard px-8 py-5">stake</a>
-
                         </div>
                     </div>
                     <div className="bg-color rounded-lg pt-12 px-20 pb-60">

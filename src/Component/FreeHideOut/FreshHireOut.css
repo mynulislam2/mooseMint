@@ -1,0 +1,64 @@
+.FreshHideOutBg {
+    background-image: url("https://moosesocietynft.io/wp-content/uploads/2022/05/Mutant_Hideout_Base_1blur.png");
+    background-position: center center;
+    background-size: cover;
+    max-height: 50vh;
+    width: 100%;
+    padding: 50px 0px 390px 80px;
+    zoom: 1.5;
+}
+
+.FreshHideOutBg2 {
+    background-image: url("https://moosesocietynft.io/wp-content/uploads/2022/03/bg-hero-home.png"), linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    height: 50vh;
+    width: 100%;
+}
+
+.Freehidepara {
+    color: #ffffff99
+}
+
+.FreeHideOutPick {
+
+    display: inline-flex;
+    flex-shrink: 0;
+    cursor: pointer;
+    user-select: none;
+    appearance: none;
+    height: 2.7rem !important
+        /* 48px */
+    ;
+    padding-left: 1rem
+        /* 16px */
+    ;
+    padding-right: 2.5rem
+        /* 40px */
+    ;
+    padding-right: 2.5rem
+        /* 40px */
+    ;
+    font-size: 0.875rem
+        /* 14px */
+    ;
+    line-height: 1.25rem
+        /* 20px */
+    ;
+    line-height: 2;
+    /* 48px */
+    ;
+    min-height: 20px;
+    border-width: 1px;
+}
+
+@media (min-width: 400px) and (max-width:768.99px) {
+    .FreshHideOutBg {
+        padding: 50px 0px 450px 0px;
+    }
+
+    .title {
+        font-size: 1.7rem;
+    }
+}

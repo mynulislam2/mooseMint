@@ -31,16 +31,16 @@ const Hero = () => {
                         <p class="py-6 pr-10">Ready to join the herd and start your journey? Minting one gets you access to the private discord. Minting 2 gets you started on your path to a Free Mini Moose! Yup, Free! Just stake them for 90 days to earn an adorable Mini Moose to add to your collection!</p>
                         <div className='flex items-center gap-x-4  '>
                             <button class="dashboard px-8 py-4 lg:w-52 sm:w-40 h-14 flex items-center justify-center gap-x-2">Mint-A-Moose   <FaRegGem /></button>
-                            <div class="form-control py-4 w-full moose-count">
+                            <div class="form-control py-1  moose-count">
 
-                                <select class="select h-14 select-bordered">
+                                <select class="FreeHideOutPick select-bordered">
                                     <option disabled selected>Pick one</option>
                                     {MintCount.map((d) => <option>{d}</option>)}
                                 </select>
                             </div>
                         </div>
                         <div>
-                            <Count></Count>
+                            <Count Count1={5000} Count2={200} Count3={15}></Count>
                         </div>
                     </div>
 

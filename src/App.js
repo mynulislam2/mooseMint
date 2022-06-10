@@ -1,14 +1,12 @@
-// import Mint from "./Pages/Mint";
 
-import Stacking from "./Pages/Stacking";
+import Hideouts from "./Pages/Hideouts";
 
 
 
 function App() {
   return (
     <div>
-{/* <Mint></Mint> */}
-<Stacking></Stacking>
+      <Hideouts></Hideouts>
     </div>
   );
 }
