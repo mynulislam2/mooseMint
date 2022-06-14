@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaArrowRight, FaDiscord, FaInstagram, FaTwitch, FaTwitter } from "react-icons/fa";
 import { Slide, Zoom } from 'react-reveal';
 const Footer = () => {

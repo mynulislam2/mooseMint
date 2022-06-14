@@ -1,0 +1,18 @@
+.bg-AlphaCard {
+    background-image: url('./images/AlphaIslandImage.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.card-custom {
+    background-color: #ffffff12;
+    padding: 10px;
+}
+
+.bg-token {
+    background-color: #0c032480;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 10px;
+}

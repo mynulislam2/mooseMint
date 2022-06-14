@@ -1,0 +1,22 @@
+.bg-trade {
+    background-color: #ffffff12;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.bgProceedTrade {
+    background-image: url('./images/elipse-4.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+
+}
+
+.tradeimg {
+    margin-top: 20px;
+}
+
+@media (max-width: 1023px) {
+    .tradeimg {
+        margin-top: 2.5rem;
+    }
+}

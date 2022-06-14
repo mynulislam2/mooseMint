@@ -117,10 +117,22 @@ p {
         border-top: 1px solid rgba(255, 255, 255, 0.2);
         border-bottom: 1px solid rgba(255, 255, 255, 0.2);
         text-align: center;
+        width: 100%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+
     }
 
     .count {
         height: 200px;
         padding: 10px 0px 10px 0px;
+    }
+
+    .cutomCount {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        margin-top: 100px;
     }
 }
